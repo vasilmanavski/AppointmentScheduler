@@ -9,6 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CreatePatientDto {
+
   private String name;
   private Set<Appointment> appointments;
 }
